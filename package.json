@@ -1,0 +1,21 @@
+{
+  "name": "connect-azure",
+  "description": "Azure session store for connect",
+  "keywords": ["azure", "connect", "express"],
+  "author": "Paul O'Fallon <paul@ofallonfamily.com>",
+  "homepage": "https://github.com/pofallon/connect-azure",
+  "dependencies": {
+    "azure": "0.2.x"
+  },
+  "engine": "node >= 0.4.1",
+  "version": "0.2.0",
+  "files": [
+    "index.js",
+    "lib",
+    "package.json",
+    "README.md",
+    "test.js"
+  ],
+  "main": "index"
+}
+

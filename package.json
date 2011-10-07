@@ -5,7 +5,7 @@
   "author": "Paul O'Fallon <paul@ofallonfamily.com>",
   "homepage": "https://github.com/pofallon/connect-azure",
   "dependencies": {
-    "azure": "0.2.x"
+    "azure": "0.2.1"
   },
   "engine": "node >= 0.4.1",
   "version": "0.2.1",

@@ -24,9 +24,11 @@ connect.createServer(
 );
 ````
 Express users may do the following:
+
 ````Javascript
 var AzureStore = require('connect-azure')(express);
 ````
+
 ## Thanks to...
 
 @tjholowaychuk for [connect-redis](https://github.com/visionmedia/connect-redis), on which this module is based. 

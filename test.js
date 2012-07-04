@@ -1,17 +1,17 @@
 var fs = require('fs')
   , assert = require('assert')
   , connect = require('connect')
-  , AzureStore = require('./')(connect);
+  , BlueskyStore = require('./')(connect);
 
 var path = process.env.HOME || (process.env.HOMEDRIVE + process.env.HOMEPATH);
-var testCredentials = JSON.parse(fs.readFileSync(path + '/.azurejs/test.json','ascii'));
+var testCredentials = JSON.parse(fs.readFileSync(path + '/.bluesky/test.json','ascii'));
 var account = testCredentials.account;
 var key = testCredentials.key;
 var table1 = 'connect';
 var table2 = 'connect2';
 
-var store = new AzureStore({account: account, key: key, table: table1});
-var store_alt = new AzureStore({account: account, key: key, table: table2});
+var store = new BlueskyStore({account: account, key: key, table: table1});
+var store_alt = new BlueskyStore({account: account, key: key, table: table2});
 
   // #set()
   store.set('123', { cookie: { maxAge: 2000 }, name: 'paul' }, function(err, ok){

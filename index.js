@@ -1,1 +1,1 @@
-module.exports = require('./lib/connect-azure');
+module.exports = require('./lib/connect-bluesky');

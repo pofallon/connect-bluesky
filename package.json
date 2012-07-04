@@ -5,10 +5,13 @@
   "author": "Paul O'Fallon <paul@ofallonfamily.com>",
   "homepage": "https://github.com/pofallon/connect-azure",
   "dependencies": {
-    "azure": "0.2.1"
+    "bluesky": ">= 0.5.2"
   },
-  "engine": "node >= 0.4.1",
-  "version": "0.2.1",
+  "devDependencies": {
+    "connect": ">= 2.x.x"
+  },
+  "engine": "node >= 0.6.x",
+  "version": "0.3.0",
   "files": [
     "index.js",
     "lib",

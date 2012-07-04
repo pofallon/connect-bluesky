@@ -1,9 +1,9 @@
 {
-  "name": "connect-azure",
-  "description": "Azure session store for connect",
-  "keywords": ["azure", "connect", "express"],
+  "name": "connect-bluesky",
+  "description": "Windows Azure session store for connect/express backed by the bluesky API",
+  "keywords": ["azure", "connect", "express", "cloud"],
   "author": "Paul O'Fallon <paul@ofallonfamily.com>",
-  "homepage": "https://github.com/pofallon/connect-azure",
+  "homepage": "https://github.com/pofallon/connect-bluesky",
   "dependencies": {
     "bluesky": ">= 0.5.2"
   },

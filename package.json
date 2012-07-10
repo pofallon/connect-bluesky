@@ -11,7 +11,7 @@
     "connect": ">= 2.x.x"
   },
   "engine": "node >= 0.6.x",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "files": [
     "index.js",
     "lib",

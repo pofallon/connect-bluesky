@@ -1,5 +1,16 @@
-# connect-bluesky
+# connect-bluesky #
 
-connect-bluesky is a Windows Azure session store backed by the [bluesky](https://github.com/pofallon/node-bluesky) API for Windows Azure.
+connect-bluesky is a node.js connect/express session store backed by the [bluesky](https://github.com/pofallon/node-bluesky) API for Windows Azure.
 
-(Currently under development and not yet deployed to npm)
+## Installation ##
+```
+$ npm install connect-bluesky
+```
+
+## Options ##
+
+* __account:__ The name of the Windows Azure storage account to use
+* __key:__ The access key used to authenticate into this storage account
+* __table:__ The name of the table to use (will be created if it does not already exist)
+
+Inspired by, and patterned after, [connect-redis](https://github.com/visionmedia/connect-redis/)

@@ -35,6 +35,6 @@ app.configure(function() {
 * __table:__ The name of the table to use (will be created if it does not already exist)
 
 ## Example ##
-There is an example application in the [example](example) directory.
+There is an example application in the [example](connect-bluesky/example) directory.
 
 connect-bluesky was inspired by, and patterned after, [connect-redis](https://github.com/visionmedia/connect-redis/)

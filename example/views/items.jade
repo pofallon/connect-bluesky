@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  form(method='post', action='/items)
+    input(name='item', type='text')
+    input(type='submit', value='Save')
+  ul
+    - each item in items
+      li= item

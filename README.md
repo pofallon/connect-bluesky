@@ -34,4 +34,7 @@ app.configure(function() {
 * __key:__ The access key used to authenticate into this storage account
 * __table:__ The name of the table to use (will be created if it does not already exist)
 
-Inspired by, and patterned after, [connect-redis](https://github.com/visionmedia/connect-redis/)
+## Example ##
+There is an example application in the [example](example) directory.
+
+connect-bluesky was inspired by, and patterned after, [connect-redis](https://github.com/visionmedia/connect-redis/)
